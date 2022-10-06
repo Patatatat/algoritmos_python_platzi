@@ -47,3 +47,12 @@
 #greet(name="Andres")
 
 # Stack with recursion:
+
+def fact(x):
+    print(x)
+    if x == 1:
+     return 1
+    else:
+     return x * fact(x-1)
+
+fact(x= 15)
